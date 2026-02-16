@@ -1,0 +1,78 @@
+ ## Objective: Guide the model to solve a problem with explicit reasoning.
+1. Write a logic puzzle :
+. if zin is two times older than ken and zin is four times four times older than taiwo. Taiwo is 8 years, how old is zin.
+2. Prompt the model: "Explain your reasoning before giving the final answer."
+3. Verify that the model provides step-by-step reasoning followed by the correct answer.
+. Step 1: Translate the Information into Math
+
+We are given:
+
+Zin is two times older than Ken
+This means:
+
+Z=2K
+Z=2K
+
+Zin is four times older than Taiwo
+This means:
+
+Z=4T
+Z=4T
+
+Taiwo is 8 years old
+So:
+
+T=8
+T=8
+Step 2: Substitute Taiwo’s Age
+
+From:
+
+Z=4T
+Z=4T
+
+Substitute 
+T=8
+T=8:
+
+Z=4×8
+Z=4×8
+Z=32
+Z=32
+Step 3: (Optional Check for Consistency)
+
+We can check if this fits the first statement.
+
+Since:
+
+Z=32
+Z=32
+
+And:
+
+Z=2K
+Z=2K
+
+So:
+
+32=2K
+32=2K
+
+Divide both sides by 2:
+
+K=16
+K=16
+
+This works perfectly:
+
+Taiwo = 8
+
+Ken = 16
+
+Zin = 32
+
+The relationships are consistent.
+
+Final Answer:
+
+Zin is 32 years old.

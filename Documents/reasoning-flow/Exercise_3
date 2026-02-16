@@ -1,0 +1,116 @@
+## Objective: Break complex questions into smaller steps.
+1. Select a multi-step question:
+- What is factorial of the sum of 5 and 6
+## the output 
+What is factorial of the sum of 5 and 6
+
+Let’s solve it step by step.
+
+Step 1: Find the Sum
+5+6=11
+5+6=11
+
+So we need to calculate:
+
+11!
+11!
+Step 2: Expand the Factorial
+
+Factorial means multiplying the number by all positive integers less than it:
+
+11!=11×10×9×8×7×6×5×4×3×2×1
+11!=11×10×9×8×7×6×5×4×3×2×1
+Step 3: Multiply Step by Step
+11×10=110
+11×10=110
+110×9=990
+110×9=990
+990×8=7,920
+990×8=7,920
+7,920×7=55,440
+7,920×7=55,440
+55,440×6=332,640
+55,440×6=332,640
+332,640×5=1,663,200
+332,640×5=1,663,200
+1,663,200×4=6,652,800
+1,663,200×4=6,652,800
+6,652,800×3=19,958,400
+6,652,800×3=19,958,400
+19,958,400×2=39,916,800
+19,958,400×2=39,916,800
+Final Answer:
+11!=39,916,800
+
+2.Create a prompt that asks the model to:
+
+ - Restate the problem : the output
+
+ First add 5 and 6 together. Then find the factorial of the result (that is, multiply that number by all the positive integers below it down to 1).
+ - Break it into smaller steps:
+
+
+1. Add the two numbers
+
+Compute the sum of 5 and 6.
+
+2. Use the result
+
+Take the number you get from the addition.
+
+3. Apply the factorial operation
+
+Multiply that number by all positive whole numbers below it down to 1.
+
+- Solve each step before giving the final answer:
+Step 1: Add the numbers
+5+6=11
+5+6=11
+
+So now we need to find:
+
+11!
+11!
+Step 2: Calculate 11 factorial
+
+Factorial means multiplying the number by all positive integers below it:
+
+11!=11×10×9×8×7×6×5×4×3×2×1
+11!=11×10×9×8×7×6×5×4×3×2×1
+
+Multiply step by step:
+
+11×10=110
+11×10=110
+
+110×9=990
+110×9=990
+
+990×8=7,920
+990×8=7,920
+
+7,920×7=55,440
+7,920×7=55,440
+
+55,440×6=332,640
+55,440×6=332,640
+
+332,640×5=1,663,200
+332,640×5=1,663,200
+
+1,663,200×4=6,652,800
+1,663,200×4=6,652,800
+
+6,652,800×3=19,958,400
+6,652,800×3=19,958,400
+
+19,958,400×2=39,916,800
+19,958,400×2=39,916,800
+
+39,916,800×1=39,916,800
+39,916,800×1=39,916,800
+
+✅ Step 3: Final Answer
+11!=39,916,800
+11!=39,916,800
+	

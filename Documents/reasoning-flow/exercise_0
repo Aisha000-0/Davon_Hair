@@ -1,0 +1,6 @@
+## Objective: Set up the environment for Python development.
+
+python --version
+```python
+print("Hello, World!")
+```

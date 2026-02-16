@@ -1,0 +1,172 @@
+### Objective: Use structured prompting to encourage reasoning
+1. Choose a math or coding problem :
+calculate the logarithm of 896:
+2. Prompt the model: "Let's think step by step before answering"
+3. Step 1: What Does a Base-10 Logarithm Mean?
+## output with reasoning instruction
+
+By definition:
+
+log⁡10(896)=x
+log
+10
+	​
+
+(896)=x
+
+means:
+
+10x=896
+10
+x
+=896
+
+So we are really asking:
+
+“To what power must 10 be raised to get 896?”
+
+Step 2: Locate 896 Between Powers of 10
+
+We know:
+
+102=100
+10
+2
+=100
+103=1000
+10
+3
+=1000
+
+Since:
+
+100<896<1000
+100<896<1000
+
+the logarithm must be:
+
+2<log⁡10(896)<3
+2<log
+10
+	​
+
+(896)<3
+
+So the answer will be 2.something.
+
+This already gives us a logical boundary.
+
+Step 3: Express 896 in Scientific Notation
+
+To make logarithms easier, we rewrite 896 as:
+
+896=8.96×102
+896=8.96×10
+2
+
+This step is important because logarithms have a very useful property:
+
+log⁡(ab)=log⁡(a)+log⁡(b)
+log(ab)=log(a)+log(b)
+Step 4: Apply Logarithm Laws
+log⁡10(896)=log⁡10(8.96×102)
+log
+10
+	​
+
+(896)=log
+10
+	​
+
+(8.96×10
+2
+)
+
+Using the product rule:
+
+=log⁡10(8.96)+log⁡10(102)
+=log
+10
+	​
+
+(8.96)+log
+10
+	​
+
+(10
+2
+)
+
+Now use another log rule:
+
+log⁡10(10n)=n
+log
+10
+	​
+
+(10
+n
+)=n
+
+So:
+
+log⁡10(102)=2
+log
+10
+	​
+
+(10
+2
+)=2
+
+This simplifies the expression to:
+
+log⁡10(896)=log⁡10(8.96)+2
+log
+10
+	​
+
+(896)=log
+10
+	​
+
+(8.96)+2
+Step 5: Approximate log₁₀(8.96)
+
+Now we estimate:
+
+We know:
+
+log⁡10(9)≈0.954
+log
+10
+	​
+
+(9)≈0.954
+
+Since 8.96 is slightly less than 9, its logarithm will be slightly less than 0.954.
+
+A calculator gives:
+
+log⁡10(8.96)≈0.952
+log
+10
+	​
+
+(8.96)≈0.952
+Step 6: Add Everything Together
+log⁡10(896)=0.952+2=2.952
+log
+10
+	​
+
+(896)=0.952+2=2.952
+Final Answer
+log⁡10(896)≈2.952
+log
+10
+	​
+
+(896)≈2.952
+## wthout reasoning instruction
+log⁡10(896)≈2.952
