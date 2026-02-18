@@ -1,0 +1,19 @@
+### Objective: Apply prompting to professional use cases.
+
+1.     Write a prompt that generates a resume summary based on role and skills. Example: "Create a 3-sentence professional summary for a software engineer skilled in Python and cloud systems
+
+- Results-driven software engineer with expertise in Python programming and cloud systems. Experienced in developing scalable, efficient applications and deploying solutions across cloud platforms. Brings value by delivering reliable, innovative software that enhances system performance and meets business objectives.
+
+2. Adjust the prompt for a different role (e.g., teacher, designer, marketer).
+
+- "Create a 3-sentence professional summary for an architecture skilled in designing and building."
+
+
+- Detail-oriented architect skilled in designing and building innovative and functional structures. Experienced in managing projects from concept to completion while ensuring quality, efficiency, and client satisfaction. Brings value by delivering creative, sustainable, and cost-effective solutions that meet both aesthetic and practical goals.
+
+2. Adjust the prompt for a different role (e.g., teacher, designer, marketer).
+
+- "Create a 3-sentence professional summary for an architecture skilled in designing and building."
+
+3. Compare how the outputs change depending on the role.
+
