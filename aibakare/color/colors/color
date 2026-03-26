@@ -1,0 +1,49 @@
+package main
+
+import (
+	"fmt"
+	"os"
+	"strings"
+)
+
+func main() {
+	if len(os.Args) < 3 {
+		fmt.Println("Usage: go run . [OPTION] [STRING]")
+		return
+	}
+
+	if !strings.HasPrefix(os.Args[1], "--color=") {
+		fmt.Println("Usage: go run . [OPTION] [STRING]")
+		return
+	}
+	spliting := strings.Split(os.Args[1], "=")
+	splited := spliting[1]
+	colorCode := getColorCode(splited)
+	reset := "\033[0m"
+
+	if len(os.Args) == 4 {
+		substring := os.Args[2]
+		text := os.Args[3]
+
+		alreadyColored := colorCode + substring + reset
+		result := strings.ReplaceAll(text, substring, alreadyColored)
+		fmt.Println(result)
+
+		return
+	}
+	argument := os.Args[2]
+	fmt.Println(colorCode + argument + reset)
+}
+func getColorCode(color string) string {
+	switch color {
+	case "red":
+		return "\033[31m"
+	case "yellow":
+		return "\033[33m"
+	case "magenta":
+		return "\033[35m"
+	default:
+		return ""
+	}
+
+}
