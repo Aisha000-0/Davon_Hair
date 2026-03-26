@@ -1,0 +1,70 @@
+{
+  "Version": "24.04",
+  "OEM": {
+    "Vendor": "Dell Inc.",
+    "Product": "Latitude 7490",
+    "Family": "Latitude"
+  },
+  "BIOS": {
+    "Vendor": "Dell Inc.",
+    "Version": "1.9.2"
+  },
+  "Arch": "amd64",
+  "HwCap": "x86-64-v3",
+  "GPU": [
+    {
+      "Vendor": "8086",
+      "Model": "5917"
+    }
+  ],
+  "RAM": 8,
+  "Disks": [
+    128
+  ],
+  "Partitions": [
+    121.4,
+    1.1
+  ],
+  "Screens": [
+    {
+      "Size": "310mmx170mm",
+      "Resolution": "1366x768",
+      "Frequency": "59.98"
+    }
+  ],
+  "Autologin": true,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "wayland"
+  },
+  "Language": "en_US",
+  "Timezone": "Africa/Lagos",
+  "Install": {
+    "Type": "Flutter",
+    "OEM": false,
+    "Media": "Ubuntu 24.04.3 LTS",
+    "Stages": {
+      "1": "locale",
+      "11": "accessibility",
+      "12": "keyboard",
+      "13": "network",
+      "32": "tryOrInstall",
+      "36": "autoinstall",
+      "37": "sourceSelection",
+      "39": "codecsAndDrivers",
+      "50": "storage",
+      "61": "identity",
+      "95": "timezone",
+      "102": "confirm",
+      "104": "install",
+      "380": "done"
+    },
+    "Language": "en",
+    "Minimal": true,
+    "RestrictedAddons": false,
+    "PartitionMethod": "use_device",
+    "UseActiveDirectory": false
+  }
+}
